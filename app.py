@@ -128,7 +128,7 @@ class AppWindow(Window):
         standardized_width = (self._client_coord.height/self.config.STANDARD_SCALE.height)*self.config.STANDARD_SCALE.width
         padding = (self._client_coord.width - standardized_width) // 2
 
-        standardized_x = padding +  (standardized_width/self.config.STANDARD_SCALE.height)*window_coord.x
+        standardized_x = padding +  (standardized_width/self.config.STANDARD_SCALE.width)*window_coord.x
         standardized_y = (self._client_coord.height/self.config.STANDARD_SCALE.height)*window_coord.y
 
         super(AppWindow,self).click(Coord(standardized_x, standardized_y))
