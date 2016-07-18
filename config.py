@@ -26,8 +26,8 @@ class config(object):
     CHOOSE_CUSTOM_DECK = Coord(680,660)
  
     NEXT_PAGE = Coord(720,100)
-    CARD_PAGE_COORDS = [Coord(170,270),Coord(300,270),Coord(460,270),Coord(640,270),
-                                          Coord(170,530),Coord(300,530),Coord(460,530),Coord(640,530)]
+    CARD_PAGE_COORDS = [Coord(150,270),Coord(300,270),Coord(460,270),Coord(640,270),
+                                          Coord(150,530),Coord(300,530),Coord(460,530),Coord(640,530)]
 
     MENU_DELAY = 1
     PAGE_DELAY = 0.05 
